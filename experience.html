@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bowei Li's Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Bowei Li">
+    <meta name="description" content="Bowei Li's HW2 submission">
+    <link href="style.css" rel="stylesheet">
+    <style>
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="education.html">Education</a>
+            <a href="experience.html">Experiences</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="contact.html">Contact Me</a>
+            <a href="experiments.html">Experiments</a>
+            <!--More tabs and html pages here-->
+        </nav>
+    </header>
+    <main>
+        <h2>My Experiences</h2>
+        <section>
+            <h3>Skills</h3>
+            <p>Some of my skills include:</p>
+            <table>
+                <caption>My Technical Skills</caption>
+                <colgroup>
+                    <col span="2" style="background-color: rgb(0, 128, 255);">
+                </colgroup>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>Proficient</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Proficient</td>
+                </tr>
+                <tr>
+                    <td>Go</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>AWS</td>
+                    <td>Proficient</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>Intermediate</td>
+                </tr>
+                <tr>
+                    <td>Git</td>
+                    <td>Intermediate</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>Internship</h3>
+            <h4>Software Engineering Intern -- Amazon</h4>
+            <ul>
+                <li>Designed and built the data ingestion workflow for onboarding clients across Amazon to support fraud detection</li>
+                <li>Created AWS Lambda and ECS/Fargate in Java for data processing, and built infrastructure as code (AWS CDK) in TypeScript</li>
+                <li>Validated the system end to end with integration tests and unit tests, set up a CI/CD pipeline to deploy the service</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Projects</h3>
+            <details>
+                <summary>SurfStore (Go, Raft)</summary>
+                <ul>
+                    <li>Built a cloud-based file storage service that was based on Dropbox and allowed clients to sync files to and from the cloud</li>
+                    <li>Constructed fault tolerant server based on the RAFT consensus algorithm using Go and gRPC</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Distributed Social Networking (Python, Javascript)</summary>
+                <ul>
+                    <li>Constructed a cross-domain full-stack web application using React.js and Django that serves as a blogging/social network platform</li>
+                    <li>Built REST API to allow users to register, login, send/read posts/comments/likes, add/remove friends, etc.</li>
+                    <li>Worked with PostgreSQL, utilized Docker for containerizing, and deployed the project on Heroku</li>
+                    <li>Find the 2-min demo video below:</li>
+                </ul>
+                <iframe width="400" height="300"
+                src="https://www.youtube.com/watch?v=WtUktcYLxmk">
+                </iframe>
+            </details>
+        </section>
+    </main>
+</body>
+</html>
