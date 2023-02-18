@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="Bowei Li">
     <meta name="description" content="Bowei Li's HW2 submission">
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -15,18 +16,25 @@
             <a href="experience.html">Experiences</a>
             <a href="hobbies.html">Hobbies</a>
             <a href="contact.html">Contact Me</a>
-            <a href="experiments.html">Experiments</a>
             <!--More tabs and html pages here-->
         </nav>
     </header>
     <main>
         <h2>My Education</h2>
+        <div id="EducationBody">
         <p>I am currently pursuing my Master's degree in Computer Science at <span>UC San Diego</span>.</p>
+        <picture class="school-image">
+            <source srcset="ucsd.jpeg" media="(min-width: 1000px)" />
+            <img src="ucsd.jpeg" alt="picture of ucsd" width="400" height="240"/>
+            <figcaption>UC San Diego in California, US.</figcaption>
+        </picture>
         <p>Before coming to San Diego, I earned my Bachelor's degree in Computing Science at University of Alberta.</p>
-        <figure>
-            <img src="ualberta.jpeg" alt="ualberta" width="280" height="200">
+        <picture class="school-image">
+            <source srcset="ualberta.jpeg" media="(min-width: 1000px)" />
+            <img src="ualberta.jpeg" alt="picture of ualberta" width="400" height="240"/>
             <figcaption>UAlberta in Edmonton, Alberta, Canada.</figcaption>
-        </figure>
+        </picture>
+        </div>
     </main>
 </body>
 </html>

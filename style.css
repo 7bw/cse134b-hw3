@@ -1,0 +1,176 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Regular.eot');
+    src: url('fonts/fira/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Regular.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Regular.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Italic.eot');
+    src: url('fonts/fira/eot/FiraSans-Italic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Italic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Italic.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  /* Fira Sans Bold */
+  @font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Bold.eot');
+    src: url('fonts/fira/eot/FiraSans-Bold.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Bold.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Bold.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-BoldItalic.eot');
+    src: url('fonts/fira/eot/FiraSans-BoldItalic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-BoldItalic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-BoldItalic.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* Fira Sans Thin */
+@font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Thin.eot');
+    src: url('fonts/fira/eot/FiraSans-Thin.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Thin.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Thin.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-ThinItalic.eot');
+    src: url('fonts/fira/eot/FiraSans-ThinItalic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-ThinItalic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-ThinItalic.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  /* Fira Sans Light */
+  @font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-Light.eot');
+    src: url('fonts/fira/eot/FiraSans-Light.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-Light.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-Light.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-Light.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "Fira Sans";
+    src: url('fonts/fira/eot/FiraSans-LightItalic.eot');
+    src: url('fonts/fira/eot/FiraSans-LightItalic.eot') format('embedded-opentype'),
+         url('fonts/fira/woff2/FiraSans-LightItalic.woff2') format('woff2'),
+         url('fonts/fira/woff/FiraSans-LightItalic.woff') format('woff'),
+         url('fonts/fira/woff2/FiraSans-LightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+  }
+
+@keyframes skill-animation {
+    0%  {background-color: rgb(0, 128, 255);}
+    50% {background-color: yellow;}
+    100% {background-color: greenyellow;}
+}
+
+
+html, body {
+    height: 100%;
+    /*
+    background-image: url("pexels-asad-photo-maldives-457881.jpg");
+    */
+    --custom-fonts: "Fira Sans";
+}
+
+body {
+    font-family: var(--custom-fonts), Tahoma, sans-serif ;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#HomeIntro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--main-font-color);
+}
+
+#HomeMessage {
+    
+    text-align: center;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: gray;
+    color:white;
+}
+
+div#EducationBody {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 20px;
+}
+
+
+#table-col {
+    animation-name: skill-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+details {
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+details:hover {
+    background-color: yellow;
+}
